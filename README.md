@@ -1,6 +1,10 @@
 # mcdeploy
-A method to deploy multiple Minecraft servers using your own server files
 
+A docker image to deploy multiple Minecraft servers using your own server files.
+
+This is useful for creating several minigame servers where data doesn't need to be kept after the game ends, although data can be kept if needed.
+
+The number of servers you can deploy at once is only limited by server resources and the number of available ports.
 
 # Usage
 
