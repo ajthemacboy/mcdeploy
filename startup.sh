@@ -1,5 +1,5 @@
 #!/bin/bash
-mv /tmp/serverfiles/* /data/
+cp /tmp/serverfiles/* /data/
 chmod +x /data/start.sh
 
 chown -R minecraft:minecraft /data
