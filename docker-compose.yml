@@ -8,4 +8,5 @@ mcdeploy:
   restart: always
   volumes:
     - /dock/mcdeploy_${UUID}:/data
+    - ./serverfiles:/tmp/serverfiles
   command: "bash -C /usr/bin/startup.sh"
