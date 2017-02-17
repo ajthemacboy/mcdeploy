@@ -18,7 +18,7 @@ A method to deploy multiple Minecraft servers using your own server files
 
 7. To stop all containers created with the script per directory, run `down.sh` in that directory.
 
-**Warning: Server data is deleted by `down.sh` by default. To avoid this behavior, comment out the `while...done` loop and optionally the `docker rm` lines in `down.sh`.
+**Warning: Server data is deleted by `down.sh` by default. To avoid this behavior, comment out the `while...done` loop and optionally the `docker rm` lines in `down.sh`.**
 
 Server data is deleted by default because this script is intended for environments like minigame servers, where you typically don't want to keep maps and other server data after a game is over.
 
