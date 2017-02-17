@@ -31,6 +31,8 @@ If you wanted to later start 10 more servers on different ports, simply copy the
 
 # Technical information
 
+- Based on Alpine, a 5MB minimal Docker image.
+
 - Each server will be given its own unique UUID when you run `deploy.sh`. These UUIDs are stored in `uuidlist.txt` until the containers are removed with `down.sh`, when each UUID is removed as each container is removed.
 
 - Server data volumes are located /dock subfolders with their own UUID.
