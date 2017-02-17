@@ -7,5 +7,5 @@ mcdeploy:
   stdin_open: true
   restart: always
   volumes:
-    - /dock/mcdeploy${UUID}:/data
+    - /dock/mcdeploy_${UUID}:/data
   command: "bash -C /usr/bin/up.sh"
