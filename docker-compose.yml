@@ -1,0 +1,11 @@
+mcdeploy:
+  ports:
+    - ${PORT}:25565
+  container_name: "mcdeploy_${UUID}"
+  image: ajthemacboy/mcdeploy
+  tty: true
+  stdin_open: true
+  restart: always
+  volumes:
+    - /dock/mcdeploy${UUID}:/data
+  command: "bash -C /usr/bin/up.sh"
