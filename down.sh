@@ -3,7 +3,7 @@ path=/root/mcdeploy
 cd $path
 
 while read UUID; do
-        rm -rf /dock/mcdeploy/$UUID
+        rm -rf /dock/mcdeploy_$UUID
         grep -v $UUID uuidlist.txt > uuidlist.txt.tmp
         mv uuidlist.txt.tmp uuidlist.txt
 done <uuidlist.txt
