@@ -1,5 +1,7 @@
 # mcdeploy
 
+[![](https://images.microbadger.com/badges/image/ajthemacboy/mcdeploy.svg)](https://microbadger.com/images/ajthemacboy/mcdeploy "Get your own image badge on microbadger.com")
+
 A docker image to deploy multiple Minecraft servers using your own server files.
 
 This is useful for creating several minigame servers where data doesn't need to be kept after the game ends, although data can be kept if needed.
